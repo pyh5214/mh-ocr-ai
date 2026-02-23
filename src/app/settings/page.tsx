@@ -14,9 +14,9 @@ export default function SettingsDataManagement() {
             <span className="font-medium text-[#617589] text-[10px]">무료 플랜</span>
           </div>
           <nav className="content-stretch flex gap-[32px] items-center pl-[48px] relative shrink-0">
-            <a href="/mh-ocr-ai/file-management" className="font-bold text-[#617589] text-[14px]">파일 관리</a>
-            <a href="/mh-ocr-ai/analytics" className="font-bold text-[#617589] text-[14px]">통계</a>
-            <a href="/mh-ocr-ai/settings" className="border-[#137fec] border-b-2 border-solid font-bold text-[#137fec] text-[14px] pb-[6px]">세팅</a>
+            <a href="/file-management" className="font-bold text-[#617589] text-[14px]">파일 관리</a>
+            <a href="/analytics" className="font-bold text-[#617589] text-[14px]">통계</a>
+            <a href="/settings" className="border-[#137fec] border-b-2 border-solid font-bold text-[#137fec] text-[14px] pb-[6px]">세팅</a>
           </nav>
         </div>
         <div className="content-stretch flex gap-[24px] items-center relative shrink-0">

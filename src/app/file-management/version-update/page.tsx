@@ -18,9 +18,9 @@ export default function FileManagementVersionUpdateStat() {
                   <span className="font-bold text-[#0f172a] text-[18px] tracking-[-0.45px]">MH OCR AI</span>
                 </div>
                 <nav className="content-stretch flex gap-[32px] h-full items-center relative shrink-0">
-                  <a href="/mh-ocr-ai/file-management" className="border-[#137fec] border-b-2 border-solid content-stretch flex h-full items-center pb-[21.75px] pt-[18.25px] px-[4px] relative shrink-0 font-bold text-[#137fec] text-[15px]">파일 관리</a>
-                  <a href="/mh-ocr-ai/analytics" className="border-[rgba(0,0,0,0)] border-b-2 border-solid content-stretch flex h-full items-center pb-[21.75px] pt-[18.25px] px-[4px] relative shrink-0 font-bold text-[#4b5563] text-[15px]">통계</a>
-                  <a href="/mh-ocr-ai/settings" className="border-[rgba(0,0,0,0)] border-b-2 border-solid content-stretch flex h-full items-center pb-[21.75px] pt-[18.25px] px-[4px] relative shrink-0 font-bold text-[#4b5563] text-[15px]">세팅</a>
+                  <a href="/file-management" className="border-[#137fec] border-b-2 border-solid content-stretch flex h-full items-center pb-[21.75px] pt-[18.25px] px-[4px] relative shrink-0 font-bold text-[#137fec] text-[15px]">파일 관리</a>
+                  <a href="/analytics" className="border-[rgba(0,0,0,0)] border-b-2 border-solid content-stretch flex h-full items-center pb-[21.75px] pt-[18.25px] px-[4px] relative shrink-0 font-bold text-[#4b5563] text-[15px]">통계</a>
+                  <a href="/settings" className="border-[rgba(0,0,0,0)] border-b-2 border-solid content-stretch flex h-full items-center pb-[21.75px] pt-[18.25px] px-[4px] relative shrink-0 font-bold text-[#4b5563] text-[15px]">세팅</a>
                 </nav>
               </div>
               <div className="content-stretch flex gap-[32px] h-full items-center relative shrink-0">

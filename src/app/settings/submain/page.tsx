@@ -13,9 +13,9 @@ export default function SettingsDataManagementSubMain() {
             <span className="font-bold text-[#111418] text-[20px] tracking-[-0.5px]">MH OCR AI</span>
           </div>
           <nav className="content-stretch flex gap-[32px] items-center pl-[48px] relative shrink-0">
-            <a href="/mh-ocr-ai/file-management" className="font-bold text-[#617589] text-[14px]">파일 관리</a>
-            <a href="/mh-ocr-ai/analytics" className="font-bold text-[#617589] text-[14px]">통계</a>
-            <a href="/mh-ocr-ai/settings" className="border-[#137fec] border-b-2 border-solid font-bold text-[#137fec] text-[14px] pb-[6px]">세팅</a>
+            <a href="/file-management" className="font-bold text-[#617589] text-[14px]">파일 관리</a>
+            <a href="/analytics" className="font-bold text-[#617589] text-[14px]">통계</a>
+            <a href="/settings" className="border-[#137fec] border-b-2 border-solid font-bold text-[#137fec] text-[14px] pb-[6px]">세팅</a>
           </nav>
         </div>
         <div className="content-stretch flex gap-[24px] items-center relative shrink-0">
@@ -201,7 +201,7 @@ export default function SettingsDataManagementSubMain() {
                     </div>
                     <p className="font-normal text-[#617589] text-[14px] leading-[20px]">시스템에 대한 주요 사용 이력을 확인합니다.</p>
                   </div>
-                  <a href="/mh-ocr-ai/settings/history" className="bg-[#137fec] content-stretch flex items-center justify-center px-[24px] py-[8px] relative rounded-[8px] shrink-0">
+                  <a href="/settings/history" className="bg-[#137fec] content-stretch flex items-center justify-center px-[24px] py-[8px] relative rounded-[8px] shrink-0">
                     <span className="font-bold text-white text-[16px] leading-[24px]">이력 확인</span>
                   </a>
                 </div>
