@@ -13,9 +13,9 @@ export default function SystemHistoryPage() {
             <span className="font-black text-[#111418] text-[20px] tracking-[-0.5px]">MH OCR AI</span>
           </div>
           <nav className="content-stretch flex gap-[48px] items-center relative">
-            <a href="/file-management" className="font-bold text-[#6b7280] text-[16px]">파일 관리</a>
-            <a href="/analytics" className="font-bold text-[#6b7280] text-[16px]">통계</a>
-            <a href="/settings" className="font-bold text-[#111418] text-[16px] border-b-[3px] border-[#137fec] pb-[22px] mt-[22px]">세팅</a>
+            <a href="/mh-ocr-ai/file-management" className="font-bold text-[#6b7280] text-[16px]">파일 관리</a>
+            <a href="/mh-ocr-ai/analytics" className="font-bold text-[#6b7280] text-[16px]">통계</a>
+            <a href="/mh-ocr-ai/settings" className="font-bold text-[#111418] text-[16px] border-b-[3px] border-[#137fec] pb-[22px] mt-[22px]">세팅</a>
           </nav>
           <div className="content-stretch flex gap-[32px] items-center relative">
             <div className="content-stretch flex gap-[31.99px] items-center relative shrink-0">

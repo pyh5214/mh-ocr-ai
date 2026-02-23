@@ -17,9 +17,9 @@ export default function AiOcrLlmExtractionLandingPage() {
                   <span className="font-black text-[#111418] text-[20px] tracking-[-0.5px]">MH OCR AI</span>
                 </div>
                 <nav className="content-stretch flex gap-[8px] items-center relative shrink-0">
-                  <a href="/file-management" className="px-[16px] py-[8px] rounded-full font-bold text-[#334155] text-[16px]">파일 관리</a>
-                  <a href="/analytics" className="px-[16px] py-[8px] rounded-full font-bold text-[#334155] text-[16px]">통계</a>
-                  <a href="/settings" className="px-[16px] py-[8px] rounded-full font-bold text-[#334155] text-[16px]">세팅</a>
+                  <a href="/mh-ocr-ai/file-management" className="px-[16px] py-[8px] rounded-full font-bold text-[#334155] text-[16px]">파일 관리</a>
+                  <a href="/mh-ocr-ai/analytics" className="px-[16px] py-[8px] rounded-full font-bold text-[#334155] text-[16px]">통계</a>
+                  <a href="/mh-ocr-ai/settings" className="px-[16px] py-[8px] rounded-full font-bold text-[#334155] text-[16px]">세팅</a>
                 </nav>
               </div>
               <div className="content-stretch flex gap-[24px] items-center relative shrink-0">

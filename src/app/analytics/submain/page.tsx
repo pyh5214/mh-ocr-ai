@@ -48,12 +48,12 @@ export default function AnalyticsDashboardSubMain() {
               <span className="font-bold text-[#1e293b] text-[20px] tracking-[-0.5px]">MH OCR AI</span>
             </div>
             <nav className="content-stretch flex gap-[32px] items-center relative shrink-0">
-              <a href="/file-management" className="font-bold text-[#6b7280] text-[14px]">파일 관리</a>
+              <a href="/mh-ocr-ai/file-management" className="font-bold text-[#6b7280] text-[14px]">파일 관리</a>
               <div className="relative">
-                <a href="/analytics" className="font-bold text-[#137fec] text-[14px]">통계</a>
+                <a href="/mh-ocr-ai/analytics" className="font-bold text-[#137fec] text-[14px]">통계</a>
                 <div className="absolute bg-[#137fec] bottom-[-20px] h-[3px] left-0 right-0" />
               </div>
-              <a href="/settings" className="font-bold text-[#6b7280] text-[14px]">세팅</a>
+              <a href="/mh-ocr-ai/settings" className="font-bold text-[#6b7280] text-[14px]">세팅</a>
             </nav>
           </div>
           <div className="content-stretch flex gap-[24px] items-center relative shrink-0">
@@ -145,7 +145,7 @@ export default function AnalyticsDashboardSubMain() {
             <div className="bg-white border border-[#dbe0e6] border-solid content-stretch flex flex-col gap-[24px] items-start p-[33px] relative rounded-[12px] self-stretch shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] flex-[1_0_0]">
               <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
                 <h2 className="font-bold text-[#111418] text-[20px] leading-[28px]">최근 활동</h2>
-                <a href="/analytics" className="font-bold text-[#137fec] text-[14px]">전체 보기</a>
+                <a href="/mh-ocr-ai/analytics" className="font-bold text-[#137fec] text-[14px]">전체 보기</a>
               </div>
               <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full">
                 {recentActivities.map((activity, i) => (
