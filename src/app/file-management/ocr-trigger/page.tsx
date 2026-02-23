@@ -17,9 +17,9 @@ export default function FileManagementOcrTrigger() {
                   <span className="font-black text-[#1e293b] text-[20px] tracking-[-0.5px]">MH OCR AI</span>
                 </div>
                 <nav className="content-stretch flex gap-[32px] h-full items-center relative shrink-0">
-                  <a href="/file-management" className="border-[#137fec] border-b-2 border-solid content-stretch flex h-full items-center pb-[21.75px] pt-[18.25px] px-[4px] relative shrink-0 font-bold text-[#137fec] text-[15px]">파일 관리</a>
-                  <a href="/analytics" className="border-[rgba(0,0,0,0)] border-b-2 border-solid content-stretch flex h-full items-center pb-[21.75px] pt-[18.25px] px-[4px] relative shrink-0 font-bold text-[#475569] text-[15px]">통계</a>
-                  <a href="/settings" className="border-[rgba(0,0,0,0)] border-b-2 border-solid content-stretch flex h-full items-center pb-[21.75px] pt-[18.25px] px-[4px] relative shrink-0 font-bold text-[#475569] text-[15px]">세팅</a>
+                  <a href="/mh-ocr-ai/file-management" className="border-[#137fec] border-b-2 border-solid content-stretch flex h-full items-center pb-[21.75px] pt-[18.25px] px-[4px] relative shrink-0 font-bold text-[#137fec] text-[15px]">파일 관리</a>
+                  <a href="/mh-ocr-ai/analytics" className="border-[rgba(0,0,0,0)] border-b-2 border-solid content-stretch flex h-full items-center pb-[21.75px] pt-[18.25px] px-[4px] relative shrink-0 font-bold text-[#475569] text-[15px]">통계</a>
+                  <a href="/mh-ocr-ai/settings" className="border-[rgba(0,0,0,0)] border-b-2 border-solid content-stretch flex h-full items-center pb-[21.75px] pt-[18.25px] px-[4px] relative shrink-0 font-bold text-[#475569] text-[15px]">세팅</a>
                 </nav>
               </div>
               <div className="content-stretch flex gap-[32px] h-full items-center relative shrink-0">
@@ -94,7 +94,7 @@ export default function FileManagementOcrTrigger() {
                 <p className="font-normal text-[#64748b] text-[16px] text-center leading-[26px] max-w-[448px]">
                   고급 OCR 파이프라인을 실행하여 LLM 기반 엔진으로 텍스트, 복잡한 표 및 시각적 요소를 자동으로 분석합니다.
                 </p>
-                <a href="/file-management/processing" className="bg-[#137fec] content-stretch flex gap-[12px] items-center px-[40px] py-[16px] rounded-[12px] shadow-[0px_10px_15px_-3px_rgba(0,0,0,0.1),0px_4px_6px_-4px_rgba(0,0,0,0.1)] mt-[8px]">
+                <a href="/mh-ocr-ai/file-management/processing" className="bg-[#137fec] content-stretch flex gap-[12px] items-center px-[40px] py-[16px] rounded-[12px] shadow-[0px_10px_15px_-3px_rgba(0,0,0,0.1),0px_4px_6px_-4px_rgba(0,0,0,0.1)] mt-[8px]">
                   <span className="material-symbols-outlined text-white text-[24px]">bolt</span>
                   <span className="font-bold text-white text-[18px]">OCR 텍스트 추출 시작</span>
                 </a>

@@ -19,9 +19,9 @@ export default function EditFileMetadata() {
           <div className="flex-[1_0_0] min-h-px min-w-px relative pl-[40px]">
             <div className="content-stretch flex items-center justify-between relative w-full">
               <div className="content-stretch flex gap-[40px] items-center relative shrink-0">
-                <a href="/file-management" className="border-[#137fec] border-b-2 border-solid font-bold text-[#137fec] text-[15px]">파일 관리</a>
-                <a href="/analytics" className="font-bold text-[#617589] text-[15px]">통계</a>
-                <a href="/settings" className="font-bold text-[#617589] text-[15px]">세팅</a>
+                <a href="/mh-ocr-ai/file-management" className="border-[#137fec] border-b-2 border-solid font-bold text-[#137fec] text-[15px]">파일 관리</a>
+                <a href="/mh-ocr-ai/analytics" className="font-bold text-[#617589] text-[15px]">통계</a>
+                <a href="/mh-ocr-ai/settings" className="font-bold text-[#617589] text-[15px]">세팅</a>
               </div>
               <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
                 <div className="content-stretch flex gap-[24px] items-center relative shrink-0">
